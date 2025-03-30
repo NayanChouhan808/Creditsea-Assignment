@@ -37,7 +37,7 @@ const ProtectedRoute = ({
   children, 
   allowedRoles = [] 
 }: { 
-  children: JSX.Element, 
+  children: any, 
   allowedRoles?: Array<'ADMIN' | 'VERIFIER' | 'USER'> 
 }) => {
   const { isAuthenticated, user, isLoading } = useAuthStore();

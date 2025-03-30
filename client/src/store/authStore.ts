@@ -18,7 +18,7 @@ type AuthState = {
   initialize: () => Promise<void>;
 };
 
-export const useAuthStore = create<AuthState>((set: any, get: any) => ({
+export const useAuthStore = create<AuthState>((set: any) => ({
   user: null,
   token: null,
   isAuthenticated: false,

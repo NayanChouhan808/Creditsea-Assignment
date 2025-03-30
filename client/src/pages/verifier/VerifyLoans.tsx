@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { loanApi } from '../../services/api';
 import { format } from 'date-fns';
 import { Link } from 'react-router-dom';
-import { CheckCircle, XCircle, AlertTriangle, Search, Filter, ExternalLink, RefreshCw } from 'lucide-react';
+import { CheckCircle, XCircle, AlertTriangle, Search, ExternalLink, RefreshCw } from 'lucide-react';
 
 interface Loan {
   id: string;
